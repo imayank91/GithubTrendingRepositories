@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Git-Repositories</string>
+
+    <string name="transition_image">image</string>
+    <string name="transition_title">title</string>
+
+    <string name="text_forks">forks</string>
+    <string name="text_currentperiod_stars">Current Period Stars</string>
+    <string name="text_stars">stars</string>
+    <string name="btn_visit">Visit Site</string>
+
+    <string name="something_went_wrong">Something went wrong..</string>
+    <string name="an_alien_is_probably_blocking_your_signal">An alien is probably blocking your signal</string>
+    <string name="retry">Retry</string>
+
+
+</resources>

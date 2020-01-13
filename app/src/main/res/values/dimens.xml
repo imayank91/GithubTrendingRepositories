@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="font_medium_large">18sp</dimen>
+
+    <dimen name="margin_small_medium">8dp</dimen>
+
+    <dimen name="margin_medium">16dp</dimen>
+
+    <dimen name="margin_small">6dp</dimen>
+
+    <dimen name="margin_large">15dp</dimen>
+
+    <dimen name="margin_xlarge">25dp</dimen>
+
+    <dimen name="padding_large">15dp</dimen>
+
+    <dimen name="padding_small">8dp</dimen>
+
+    <dimen name="font_small">12sp</dimen>
+
+    <dimen name="font_medium">15sp</dimen>
+
+    <dimen name="card_view_elevation">6dp</dimen>
+
+    <dimen name="card_view_corner_radius">3dp</dimen>
+
+    <dimen name="card_margin">0.5dp</dimen>
+
+    <dimen name="imageview_repoitem_square">32dp</dimen>
+
+    <dimen name="imageview_square">80dp</dimen>
+
+    <dimen name="shimmer_imageview_square">15dp</dimen>
+
+    <dimen name="btn_radius">4dp</dimen>
+
+
+</resources>

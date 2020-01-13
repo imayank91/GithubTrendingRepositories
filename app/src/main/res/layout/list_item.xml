@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="model"
+            type="com.app.gitrepositories.service.model.GithubAPIModel" />
+
+        <variable
+            name="imageView"
+            type="android.view.View" />
+
+        <variable
+            name="titleView"
+            type="android.view.View" />
+
+        <variable
+            name="childClick"
+            type="com.app.gitrepositories.helpers.ChildClickListener" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        style="@style/SelectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/card_margin"
+        android:elevation="@dimen/card_view_elevation"
+        android:onClick="@{()-> childClick.onChildClick(imageView, titleView, model) }"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardCornerRadius="@dimen/card_view_corner_radius"
+        app:cardElevation="@dimen/card_view_elevation">
+
+
+        <LinearLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/parentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_medium"
+                android:layout_marginEnd="@dimen/margin_medium">
+
+
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/imageViewAvatar"
+                    android:layout_width="@dimen/imageview_repoitem_square"
+                    android:layout_height="@dimen/imageview_repoitem_square"
+                    android:layout_centerVertical="true"
+                    app:avatar="@{model.avatar}"
+                    app:civ_border_width="0dp"
+                    tools:src="@tools:sample/avatars" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textviewAuthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_medium"
+                    android:layout_toEndOf="@+id/imageViewAvatar"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/robotoregular"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="@{model.author}"
+                    android:textColor="@color/colorItem"
+                    android:textSize="@dimen/font_small"
+                    tools:text="@tools:sample/full_names" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/textviewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textviewAuthor"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:layout_toEndOf="@+id/imageViewAvatar"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/robotomedium"
+                    android:singleLine="true"
+                    android:text="@{model.name}"
+                    android:textColor="@color/colorItem"
+                    android:textSize="@dimen/font_medium"
+                    android:textStyle="normal"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F7AB1</color>
+    <color name="colorPrimaryDark">#004E81</color>
+    <color name="colorAccent">#28ACB6</color>
+    <color name="lavender">#F9F9FB</color>
+    <color name="colorItem">#52575C</color>
+
+    <color name="item_color_title">#060606</color>
+    <color name="item_color_stars">#76b5ff</color>
+    <color name="item_color_currentstar">#f88909</color>
+    <color name="item_color_forks">#a07aea</color>
+    <color name="item_color_star_text">#a2b4ca</color>
+    <color name="item_color_line">#ecf2f9</color>
+
+    <color name="colorNoInternet">#4A4A4A</color>
+    <color name="colorAlienText">#929292</color>
+    <color name="shimmer_background">#dddddd</color>
+
+
+</resources>

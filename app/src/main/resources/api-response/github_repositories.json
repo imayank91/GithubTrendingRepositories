@@ -1,0 +1,854 @@
+[
+  {
+    "author": "komeiji-satori",
+    "name": "Dress",
+    "avatar": "https://github.com/komeiji-satori.png",
+    "url": "https://github.com/komeiji-satori/Dress",
+    "description": "好耶 是女装",
+    "language": "Standard ML",
+    "languageColor": "#dc566d",
+    "stars": 12834,
+    "forks": 2074,
+    "currentPeriodStars": 203,
+    "builtBy": [
+      {
+        "username": "akechisatori",
+        "href": "https://github.com/akechisatori",
+        "avatar": "https://avatars0.githubusercontent.com/u/43605695"
+      },
+      {
+        "username": "komeiji-satori",
+        "href": "https://github.com/komeiji-satori",
+        "avatar": "https://avatars1.githubusercontent.com/u/18225919"
+      },
+      {
+        "username": "kagurazakayashi",
+        "href": "https://github.com/kagurazakayashi",
+        "avatar": "https://avatars1.githubusercontent.com/u/2824841"
+      },
+      {
+        "username": "jshensh",
+        "href": "https://github.com/jshensh",
+        "avatar": "https://avatars0.githubusercontent.com/u/11555188"
+      },
+      {
+        "username": "XHidamariSketchX",
+        "href": "https://github.com/XHidamariSketchX",
+        "avatar": "https://avatars3.githubusercontent.com/u/8938317"
+      }
+    ]
+  },
+  {
+    "author": "pond3r",
+    "name": "ggpo",
+    "avatar": "https://github.com/pond3r.png",
+    "url": "https://github.com/pond3r/ggpo",
+    "description": "Good Game, Peace Out Rollback Network SDK",
+    "language": "C++",
+    "languageColor": "#f34b7d",
+    "stars": 804,
+    "forks": 80,
+    "currentPeriodStars": 144,
+    "builtBy": [
+      {
+        "username": "pond3r",
+        "href": "https://github.com/pond3r",
+        "avatar": "https://avatars1.githubusercontent.com/u/277400"
+      },
+      {
+        "username": "ksmit799",
+        "href": "https://github.com/ksmit799",
+        "avatar": "https://avatars3.githubusercontent.com/u/3006587"
+      },
+      {
+        "username": "Bocom",
+        "href": "https://github.com/Bocom",
+        "avatar": "https://avatars0.githubusercontent.com/u/25933"
+      },
+      {
+        "username": "GnawNom",
+        "href": "https://github.com/GnawNom",
+        "avatar": "https://avatars3.githubusercontent.com/u/1160131"
+      },
+      {
+        "username": "mfindlater",
+        "href": "https://github.com/mfindlater",
+        "avatar": "https://avatars3.githubusercontent.com/u/1313463"
+      }
+    ]
+  },
+  {
+    "author": "flutter",
+    "name": "flutter",
+    "avatar": "https://github.com/flutter.png",
+    "url": "https://github.com/flutter/flutter",
+    "description": "Flutter makes it easy and fast to build beautiful mobile apps.",
+    "language": "Dart",
+    "languageColor": "#00B4AB",
+    "stars": 76913,
+    "forks": 9581,
+    "currentPeriodStars": 83,
+    "builtBy": [
+      {
+        "username": "abarth",
+        "href": "https://github.com/abarth",
+        "avatar": "https://avatars3.githubusercontent.com/u/112007"
+      },
+      {
+        "username": "Hixie",
+        "href": "https://github.com/Hixie",
+        "avatar": "https://avatars1.githubusercontent.com/u/551196"
+      },
+      {
+        "username": "engine-flutter-autoroll",
+        "href": "https://github.com/engine-flutter-autoroll",
+        "avatar": "https://avatars0.githubusercontent.com/u/42042535"
+      },
+      {
+        "username": "HansMuller",
+        "href": "https://github.com/HansMuller",
+        "avatar": "https://avatars0.githubusercontent.com/u/1377460"
+      },
+      {
+        "username": "jonahwilliams",
+        "href": "https://github.com/jonahwilliams",
+        "avatar": "https://avatars2.githubusercontent.com/u/8975114"
+      }
+    ]
+  },
+  {
+    "author": "Snailclimb",
+    "name": "JavaGuide",
+    "avatar": "https://github.com/Snailclimb.png",
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "description": "【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 57531,
+    "forks": 19273,
+    "currentPeriodStars": 204,
+    "builtBy": [
+      {
+        "username": "Snailclimb",
+        "href": "https://github.com/Snailclimb",
+        "avatar": "https://avatars0.githubusercontent.com/u/29880145"
+      },
+      {
+        "username": "Goose9527",
+        "href": "https://github.com/Goose9527",
+        "avatar": "https://avatars0.githubusercontent.com/u/43314997"
+      },
+      {
+        "username": "dongzl",
+        "href": "https://github.com/dongzl",
+        "avatar": "https://avatars3.githubusercontent.com/u/5917359"
+      },
+      {
+        "username": "fanofxiaofeng",
+        "href": "https://github.com/fanofxiaofeng",
+        "avatar": "https://avatars3.githubusercontent.com/u/3983683"
+      },
+      {
+        "username": "yellowgg",
+        "href": "https://github.com/yellowgg",
+        "avatar": "https://avatars3.githubusercontent.com/u/27286340"
+      }
+    ]
+  },
+  {
+    "author": "kon9chunkit",
+    "name": "GitHub-Chinese-Top-Charts",
+    "avatar": "https://github.com/kon9chunkit.png",
+    "url": "https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts",
+    "description": "🇨🇳 GitHub中文排行榜，帮助你发现高分优秀中文项目、更高效地吸收国人的优秀经验成果；榜单每周更新一次，敬请关注！（最近更新于10月9日，上班快乐 🎉）",
+    "language": "Python",
+    "languageColor": "#3572A5",
+    "stars": 5667,
+    "forks": 637,
+    "currentPeriodStars": 1188,
+    "builtBy": [
+      {
+        "username": "kon9chunkit",
+        "href": "https://github.com/kon9chunkit",
+        "avatar": "https://avatars3.githubusercontent.com/u/21018904"
+      }
+    ]
+  },
+  {
+    "author": "palewire",
+    "name": "nrol-39-logo",
+    "avatar": "https://github.com/palewire.png",
+    "url": "https://github.com/palewire/nrol-39-logo",
+    "description": "A vector PDF of the official mission logo of NROL-39",
+    "stars": 336,
+    "forks": 49,
+    "currentPeriodStars": 137,
+    "builtBy": [
+      {
+        "username": "palewire",
+        "href": "https://github.com/palewire",
+        "avatar": "https://avatars3.githubusercontent.com/u/9993"
+      }
+    ]
+  },
+  {
+    "author": "Just-A-Visitor",
+    "name": "Coding",
+    "avatar": "https://github.com/Just-A-Visitor.png",
+    "url": "https://github.com/Just-A-Visitor/Coding",
+    "description": "This repository contains pseudo-codes of various algorithms and data structures",
+    "language": "C++",
+    "languageColor": "#f34b7d",
+    "stars": 176,
+    "forks": 31,
+    "currentPeriodStars": 22,
+    "builtBy": [
+      {
+        "username": "Just-A-Visitor",
+        "href": "https://github.com/Just-A-Visitor",
+        "avatar": "https://avatars2.githubusercontent.com/u/48237538"
+      }
+    ]
+  },
+  {
+    "author": "houshanren",
+    "name": "hangzhou_house_knowledge",
+    "avatar": "https://github.com/houshanren.png",
+    "url": "https://github.com/houshanren/hangzhou_house_knowledge",
+    "description": "2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。Sharing the knowledge of buy an own house that according to the experience at hangzhou in 2017 to all the people. It's not easy to buy a own house, so I hope that it would be useful to everyone.",
+    "language": "CSS",
+    "languageColor": "#563d7c",
+    "stars": 21909,
+    "forks": 4715,
+    "currentPeriodStars": 107,
+    "builtBy": [
+      {
+        "username": "houshanren",
+        "href": "https://github.com/houshanren",
+        "avatar": "https://avatars3.githubusercontent.com/u/6621875"
+      },
+      {
+        "username": "Jeff885",
+        "href": "https://github.com/Jeff885",
+        "avatar": "https://avatars0.githubusercontent.com/u/2908043"
+      },
+      {
+        "username": "afc163",
+        "href": "https://github.com/afc163",
+        "avatar": "https://avatars0.githubusercontent.com/u/507615"
+      },
+      {
+        "username": "Cathon",
+        "href": "https://github.com/Cathon",
+        "avatar": "https://avatars3.githubusercontent.com/u/5621492"
+      },
+      {
+        "username": "xiaods",
+        "href": "https://github.com/xiaods",
+        "avatar": "https://avatars1.githubusercontent.com/u/37678"
+      }
+    ]
+  },
+  {
+    "author": "Tencent",
+    "name": "Hardcoder",
+    "avatar": "https://github.com/Tencent.png",
+    "url": "https://github.com/Tencent/Hardcoder",
+    "description": "Hardcoder is a solution which allows Android APP and Android System to communicate with each other directly, solving the problem that Android APP could only use system standard API rather than the hardware resource of system.",
+    "language": "C++",
+    "languageColor": "#f34b7d",
+    "stars": 912,
+    "forks": 73,
+    "currentPeriodStars": 170,
+    "builtBy": [
+      {
+        "username": "SophiaGuo",
+        "href": "https://github.com/SophiaGuo",
+        "avatar": "https://avatars2.githubusercontent.com/u/8189722"
+      },
+      {
+        "username": "0xflotus",
+        "href": "https://github.com/0xflotus",
+        "avatar": "https://avatars0.githubusercontent.com/u/26602940"
+      }
+    ]
+  },
+  {
+    "author": "ctripcorp",
+    "name": "apollo",
+    "avatar": "https://github.com/ctripcorp.png",
+    "url": "https://github.com/ctripcorp/apollo",
+    "description": "Apollo（阿波罗）是携程框架部门研发的分布式配置中心，能够集中化管理应用不同环境、不同集群的配置，配置修改后能够实时推送到应用端，并且具备规范的权限、流程治理等特性，适用于微服务配置管理场景。",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 17470,
+    "forks": 6213,
+    "currentPeriodStars": 28,
+    "builtBy": [
+      {
+        "username": "nobodyiam",
+        "href": "https://github.com/nobodyiam",
+        "avatar": "https://avatars1.githubusercontent.com/u/837658"
+      },
+      {
+        "username": "lepdou",
+        "href": "https://github.com/lepdou",
+        "avatar": "https://avatars1.githubusercontent.com/u/4991116"
+      },
+      {
+        "username": "yiming187",
+        "href": "https://github.com/yiming187",
+        "avatar": "https://avatars1.githubusercontent.com/u/1217700"
+      },
+      {
+        "username": "kezhenxu94",
+        "href": "https://github.com/kezhenxu94",
+        "avatar": "https://avatars0.githubusercontent.com/u/15965696"
+      },
+      {
+        "username": "JaredTan95",
+        "href": "https://github.com/JaredTan95",
+        "avatar": "https://avatars1.githubusercontent.com/u/12468337"
+      }
+    ]
+  },
+  {
+    "author": "shengxinjing",
+    "name": "programmer-job-blacklist",
+    "avatar": "https://github.com/shengxinjing.png",
+    "url": "https://github.com/shengxinjing/programmer-job-blacklist",
+    "description": "🙈程序员找工作黑名单，换工作和当技术合伙人需谨慎啊 更新有赞",
+    "language": "Shell",
+    "languageColor": "#89e051",
+    "stars": 24186,
+    "forks": 1542,
+    "currentPeriodStars": 21,
+    "builtBy": [
+      {
+        "username": "shengxinjing",
+        "href": "https://github.com/shengxinjing",
+        "avatar": "https://avatars2.githubusercontent.com/u/1905176"
+      },
+      {
+        "username": "choleraehyq",
+        "href": "https://github.com/choleraehyq",
+        "avatar": "https://avatars3.githubusercontent.com/u/8923413"
+      },
+      {
+        "username": "lilydjwg",
+        "href": "https://github.com/lilydjwg",
+        "avatar": "https://avatars2.githubusercontent.com/u/440661"
+      },
+      {
+        "username": "argsno",
+        "href": "https://github.com/argsno",
+        "avatar": "https://avatars0.githubusercontent.com/u/13399283"
+      },
+      {
+        "username": "JanFan",
+        "href": "https://github.com/JanFan",
+        "avatar": "https://avatars3.githubusercontent.com/u/5117352"
+      }
+    ]
+  },
+  {
+    "author": "justjavac",
+    "name": "free-programming-books-zh_CN",
+    "avatar": "https://github.com/justjavac.png",
+    "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+    "description": "📚 免费的计算机编程类中文书籍，欢迎投稿",
+    "stars": 56618,
+    "forks": 18130,
+    "currentPeriodStars": 87,
+    "builtBy": [
+      {
+        "username": "justjavac",
+        "href": "https://github.com/justjavac",
+        "avatar": "https://avatars2.githubusercontent.com/u/359395"
+      },
+      {
+        "username": "spacewander",
+        "href": "https://github.com/spacewander",
+        "avatar": "https://avatars0.githubusercontent.com/u/4161644"
+      },
+      {
+        "username": "hacpai",
+        "href": "https://github.com/hacpai",
+        "avatar": "https://avatars3.githubusercontent.com/u/3353639"
+      },
+      {
+        "username": "hoosin",
+        "href": "https://github.com/hoosin",
+        "avatar": "https://avatars1.githubusercontent.com/u/3365399"
+      },
+      {
+        "username": "wizardforcel",
+        "href": "https://github.com/wizardforcel",
+        "avatar": "https://avatars1.githubusercontent.com/u/5080126"
+      }
+    ]
+  },
+  {
+    "author": "justjavac",
+    "name": "awesome-wechat-weapp",
+    "avatar": "https://github.com/justjavac.png",
+    "url": "https://github.com/justjavac/awesome-wechat-weapp",
+    "description": "微信小程序开发资源汇总 💯",
+    "stars": 27542,
+    "forks": 5921,
+    "currentPeriodStars": 171,
+    "builtBy": [
+      {
+        "username": "justjavac",
+        "href": "https://github.com/justjavac",
+        "avatar": "https://avatars2.githubusercontent.com/u/359395"
+      },
+      {
+        "username": "yaoshanliang",
+        "href": "https://github.com/yaoshanliang",
+        "avatar": "https://avatars3.githubusercontent.com/u/5028569"
+      },
+      {
+        "username": "charleyw",
+        "href": "https://github.com/charleyw",
+        "avatar": "https://avatars3.githubusercontent.com/u/1860329"
+      },
+      {
+        "username": "phodal",
+        "href": "https://github.com/phodal",
+        "avatar": "https://avatars1.githubusercontent.com/u/472311"
+      },
+      {
+        "username": "Gcaufy",
+        "href": "https://github.com/Gcaufy",
+        "avatar": "https://avatars0.githubusercontent.com/u/2182004"
+      }
+    ]
+  },
+  {
+    "author": "haizlin",
+    "name": "fe-interview",
+    "avatar": "https://github.com/haizlin.png",
+    "url": "https://github.com/haizlin/fe-interview",
+    "description": "前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家）",
+    "language": "JavaScript",
+    "languageColor": "#f1e05a",
+    "stars": 7207,
+    "forks": 832,
+    "currentPeriodStars": 150,
+    "builtBy": [
+      {
+        "username": "haizhilin2013",
+        "href": "https://github.com/haizhilin2013",
+        "avatar": "https://avatars0.githubusercontent.com/u/5070345"
+      },
+      {
+        "username": "AnsonZnl",
+        "href": "https://github.com/AnsonZnl",
+        "avatar": "https://avatars3.githubusercontent.com/u/29278068"
+      },
+      {
+        "username": "xiangshuo1992",
+        "href": "https://github.com/xiangshuo1992",
+        "avatar": "https://avatars2.githubusercontent.com/u/21164035"
+      },
+      {
+        "username": "undefinedYu",
+        "href": "https://github.com/undefinedYu",
+        "avatar": "https://avatars2.githubusercontent.com/u/38064049"
+      }
+    ]
+  },
+  {
+    "author": "n8n-io",
+    "name": "n8n",
+    "avatar": "https://github.com/n8n-io.png",
+    "url": "https://github.com/n8n-io/n8n",
+    "description": "Free node based Workflow Automation Tool. Easily automate tasks across different services.",
+    "language": "TypeScript",
+    "languageColor": "#2b7489",
+    "stars": 3328,
+    "forks": 153,
+    "currentPeriodStars": 690,
+    "builtBy": [
+      {
+        "username": "janober",
+        "href": "https://github.com/janober",
+        "avatar": "https://avatars0.githubusercontent.com/u/6249596"
+      },
+      {
+        "username": "thomasleveil",
+        "href": "https://github.com/thomasleveil",
+        "avatar": "https://avatars1.githubusercontent.com/u/42300"
+      },
+      {
+        "username": "vuchl",
+        "href": "https://github.com/vuchl",
+        "avatar": "https://avatars0.githubusercontent.com/u/4921147"
+      },
+      {
+        "username": "justb81",
+        "href": "https://github.com/justb81",
+        "avatar": "https://avatars1.githubusercontent.com/u/3680539"
+      },
+      {
+        "username": "Libermentix",
+        "href": "https://github.com/Libermentix",
+        "avatar": "https://avatars2.githubusercontent.com/u/4686284"
+      }
+    ]
+  },
+  {
+    "author": "alibaba",
+    "name": "easyexcel",
+    "avatar": "https://github.com/alibaba.png",
+    "url": "https://github.com/alibaba/easyexcel",
+    "description": "快速、简单避免OOM的java处理Excel工具",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 9907,
+    "forks": 2569,
+    "currentPeriodStars": 44,
+    "builtBy": [
+      {
+        "username": "zhuangjiaju",
+        "href": "https://github.com/zhuangjiaju",
+        "avatar": "https://avatars3.githubusercontent.com/u/18475586"
+      },
+      {
+        "username": "jipengfei-jpf",
+        "href": "https://github.com/jipengfei-jpf",
+        "avatar": "https://avatars2.githubusercontent.com/u/22975773"
+      },
+      {
+        "username": "alibaba-oss",
+        "href": "https://github.com/alibaba-oss",
+        "avatar": "https://avatars3.githubusercontent.com/u/13583768"
+      },
+      {
+        "username": "clevertension",
+        "href": "https://github.com/clevertension",
+        "avatar": "https://avatars1.githubusercontent.com/u/346723"
+      },
+      {
+        "username": "lanshiqin",
+        "href": "https://github.com/lanshiqin",
+        "avatar": "https://avatars2.githubusercontent.com/u/17272089"
+      }
+    ]
+  },
+  {
+    "author": "NUKnightLab",
+    "name": "sql-mysteries",
+    "avatar": "https://github.com/NUKnightLab.png",
+    "url": "https://github.com/NUKnightLab/sql-mysteries",
+    "description": "Inspired by @veltman's command-line mystery, use SQL to research clues and find out whodunit!",
+    "language": "JavaScript",
+    "languageColor": "#f1e05a",
+    "stars": 282,
+    "forks": 21,
+    "currentPeriodStars": 32,
+    "builtBy": [
+      {
+        "username": "JoeGermuska",
+        "href": "https://github.com/JoeGermuska",
+        "avatar": "https://avatars0.githubusercontent.com/u/46313"
+      },
+      {
+        "username": "Joonpark13",
+        "href": "https://github.com/Joonpark13",
+        "avatar": "https://avatars1.githubusercontent.com/u/7915735"
+      }
+    ]
+  },
+  {
+    "author": "ageitgey",
+    "name": "face_recognition",
+    "avatar": "https://github.com/ageitgey.png",
+    "url": "https://github.com/ageitgey/face_recognition",
+    "description": "The world's simplest facial recognition api for Python and the command line",
+    "language": "Python",
+    "languageColor": "#3572A5",
+    "stars": 28761,
+    "forks": 7827,
+    "currentPeriodStars": 39,
+    "builtBy": [
+      {
+        "username": "ageitgey",
+        "href": "https://github.com/ageitgey",
+        "avatar": "https://avatars1.githubusercontent.com/u/896692"
+      },
+      {
+        "username": "enric1994",
+        "href": "https://github.com/enric1994",
+        "avatar": "https://avatars0.githubusercontent.com/u/17545224"
+      },
+      {
+        "username": "AnandBaburajan",
+        "href": "https://github.com/AnandBaburajan",
+        "avatar": "https://avatars1.githubusercontent.com/u/2698932"
+      },
+      {
+        "username": "TommyZihao",
+        "href": "https://github.com/TommyZihao",
+        "avatar": "https://avatars2.githubusercontent.com/u/36354458"
+      },
+      {
+        "username": "chn-lee-yumi",
+        "href": "https://github.com/chn-lee-yumi",
+        "avatar": "https://avatars0.githubusercontent.com/u/20398519"
+      }
+    ]
+  },
+  {
+    "author": "PanJiaChen",
+    "name": "vue-element-admin",
+    "avatar": "https://github.com/PanJiaChen.png",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "description": "🎉 A magical vue admin https://panjiachen.github.io/vue-element-admin",
+    "language": "Vue",
+    "languageColor": "#2c3e50",
+    "stars": 42792,
+    "forks": 14376,
+    "currentPeriodStars": 177,
+    "builtBy": [
+      {
+        "username": "PanJiaChen",
+        "href": "https://github.com/PanJiaChen",
+        "avatar": "https://avatars0.githubusercontent.com/u/8121621"
+      },
+      {
+        "username": "mayunhai",
+        "href": "https://github.com/mayunhai",
+        "avatar": "https://avatars0.githubusercontent.com/u/22900650"
+      },
+      {
+        "username": "spiritree",
+        "href": "https://github.com/spiritree",
+        "avatar": "https://avatars1.githubusercontent.com/u/9496701"
+      },
+      {
+        "username": "leij1ang",
+        "href": "https://github.com/leij1ang",
+        "avatar": "https://avatars3.githubusercontent.com/u/20677914"
+      },
+      {
+        "username": "wyudong",
+        "href": "https://github.com/wyudong",
+        "avatar": "https://avatars1.githubusercontent.com/u/5687273"
+      }
+    ]
+  },
+  {
+    "author": "android",
+    "name": "plaid",
+    "avatar": "https://github.com/android.png",
+    "url": "https://github.com/android/plaid",
+    "description": "An Android app which provides design news & inspiration as well as being an example of implementing material design.",
+    "language": "Kotlin",
+    "languageColor": "#F18E33",
+    "stars": 14203,
+    "forks": 2884,
+    "currentPeriodStars": 161,
+    "builtBy": [
+      {
+        "username": "nickbutcher",
+        "href": "https://github.com/nickbutcher",
+        "avatar": "https://avatars1.githubusercontent.com/u/352556"
+      },
+      {
+        "username": "florina-muntenescu",
+        "href": "https://github.com/florina-muntenescu",
+        "avatar": "https://avatars2.githubusercontent.com/u/2998890"
+      },
+      {
+        "username": "keyboardsurfer",
+        "href": "https://github.com/keyboardsurfer",
+        "avatar": "https://avatars0.githubusercontent.com/u/336005"
+      },
+      {
+        "username": "tiembo",
+        "href": "https://github.com/tiembo",
+        "avatar": "https://avatars3.githubusercontent.com/u/97128"
+      },
+      {
+        "username": "ataulm",
+        "href": "https://github.com/ataulm",
+        "avatar": "https://avatars2.githubusercontent.com/u/2678555"
+      }
+    ]
+  },
+  {
+    "author": "ityouknow",
+    "name": "spring-boot-examples",
+    "avatar": "https://github.com/ityouknow.png",
+    "url": "https://github.com/ityouknow/spring-boot-examples",
+    "description": "about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。",
+    "language": "Java",
+    "languageColor": "#b07219",
+    "stars": 18937,
+    "forks": 8529,
+    "currentPeriodStars": 30,
+    "builtBy": [
+      {
+        "username": "ityouknow",
+        "href": "https://github.com/ityouknow",
+        "avatar": "https://avatars2.githubusercontent.com/u/4979648"
+      },
+      {
+        "username": "RaytorHu",
+        "href": "https://github.com/RaytorHu",
+        "avatar": "https://avatars2.githubusercontent.com/u/37994163"
+      },
+      {
+        "username": "imtms",
+        "href": "https://github.com/imtms",
+        "avatar": "https://avatars3.githubusercontent.com/u/8328620"
+      },
+      {
+        "username": "7c00",
+        "href": "https://github.com/7c00",
+        "avatar": "https://avatars2.githubusercontent.com/u/5550004"
+      },
+      {
+        "username": "a173030685",
+        "href": "https://github.com/a173030685",
+        "avatar": "https://avatars1.githubusercontent.com/u/9361755"
+      }
+    ]
+  },
+  {
+    "author": "kelseyhightower",
+    "name": "nocode",
+    "avatar": "https://github.com/kelseyhightower.png",
+    "url": "https://github.com/kelseyhightower/nocode",
+    "description": "The best way to write secure and reliable applications. Write nothing; deploy nowhere.",
+    "language": "Dockerfile",
+    "languageColor": "#384d54",
+    "stars": 31997,
+    "forks": 2769,
+    "currentPeriodStars": 100,
+    "builtBy": [
+      {
+        "username": "kelseyhightower",
+        "href": "https://github.com/kelseyhightower",
+        "avatar": "https://avatars2.githubusercontent.com/u/1123322"
+      }
+    ]
+  },
+  {
+    "author": "microsoft",
+    "name": "ai-edu",
+    "avatar": "https://github.com/microsoft.png",
+    "url": "https://github.com/microsoft/ai-edu",
+    "description": "AI education materials for Chinese students, teachers and IT professionals.",
+    "language": "Jupyter Notebook",
+    "languageColor": "#DA5B0B",
+    "stars": 5686,
+    "forks": 1154,
+    "currentPeriodStars": 84,
+    "builtBy": [
+      {
+        "username": "xiaowuhu",
+        "href": "https://github.com/xiaowuhu",
+        "avatar": "https://avatars0.githubusercontent.com/u/19218188"
+      },
+      {
+        "username": "lillzhen",
+        "href": "https://github.com/lillzhen",
+        "avatar": "https://avatars1.githubusercontent.com/u/38806028"
+      },
+      {
+        "username": "mslichao",
+        "href": "https://github.com/mslichao",
+        "avatar": "https://avatars2.githubusercontent.com/u/40487035"
+      },
+      {
+        "username": "chelxom",
+        "href": "https://github.com/chelxom",
+        "avatar": "https://avatars3.githubusercontent.com/u/13173028"
+      },
+      {
+        "username": "Annbless",
+        "href": "https://github.com/Annbless",
+        "avatar": "https://avatars1.githubusercontent.com/u/32097042"
+      }
+    ]
+  },
+  {
+    "author": "elastic",
+    "name": "beats",
+    "avatar": "https://github.com/elastic.png",
+    "url": "https://github.com/elastic/beats",
+    "description": "🐠 Beats - Lightweight shippers for Elasticsearch & Logstash",
+    "language": "Go",
+    "languageColor": "#00ADD8",
+    "stars": 8019,
+    "forks": 2735,
+    "currentPeriodStars": 64,
+    "builtBy": [
+      {
+        "username": "ruflin",
+        "href": "https://github.com/ruflin",
+        "avatar": "https://avatars2.githubusercontent.com/u/244900"
+      },
+      {
+        "username": "tsg",
+        "href": "https://github.com/tsg",
+        "avatar": "https://avatars1.githubusercontent.com/u/101817"
+      },
+      {
+        "username": "andrewkroh",
+        "href": "https://github.com/andrewkroh",
+        "avatar": "https://avatars1.githubusercontent.com/u/4565752"
+      },
+      {
+        "username": "monicasarbu",
+        "href": "https://github.com/monicasarbu",
+        "avatar": "https://avatars3.githubusercontent.com/u/11757159"
+      },
+      {
+        "username": "urso",
+        "href": "https://github.com/urso",
+        "avatar": "https://avatars2.githubusercontent.com/u/75886"
+      }
+    ]
+  },
+  {
+    "author": "ossu",
+    "name": "computer-science",
+    "avatar": "https://github.com/ossu.png",
+    "url": "https://github.com/ossu/computer-science",
+    "description": "🎓 Path to a free self-taught education in Computer Science!",
+    "stars": 49061,
+    "forks": 7069,
+    "currentPeriodStars": 421,
+    "builtBy": [
+      {
+        "username": "ericdouglas",
+        "href": "https://github.com/ericdouglas",
+        "avatar": "https://avatars3.githubusercontent.com/u/4119931"
+      },
+      {
+        "username": "hanjiexi",
+        "href": "https://github.com/hanjiexi",
+        "avatar": "https://avatars2.githubusercontent.com/u/5695330"
+      },
+      {
+        "username": "mkghosh",
+        "href": "https://github.com/mkghosh",
+        "avatar": "https://avatars2.githubusercontent.com/u/10495809"
+      },
+      {
+        "username": "waciumawanjohi",
+        "href": "https://github.com/waciumawanjohi",
+        "avatar": "https://avatars3.githubusercontent.com/u/18407643"
+      },
+      {
+        "username": "jimages",
+        "href": "https://github.com/jimages",
+        "avatar": "https://avatars2.githubusercontent.com/u/1782097"
+      }
+    ]
+  }
+]

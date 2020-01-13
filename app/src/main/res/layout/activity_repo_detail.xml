@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="model"
+            type="com.app.gitrepositories.service.model.GithubAPIModel" />
+
+        <variable
+            name="activity"
+            type="com.app.gitrepositories.ui.RepositoryDetailActivity" />
+    </data>
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lavender">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:elevation="@dimen/card_elevation"
+            app:elevation="@dimen/card_elevation">
+
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraint_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <include
+                        android:id="@+id/main_toolbar"
+                        layout="@layout/view_toolbar"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <RelativeLayout
+                        android:id="@+id/filter_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:animateLayoutChanges="true"
+                        android:background="@color/colorPrimary"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHeight_default="percent"
+                        app:layout_constraintHeight_percent="0.6"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/main_toolbar" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:behavior_overlapTop="68dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin_small_medium"
+                    android:background="@android:color/white"
+                    android:elevation="@dimen/card_view_elevation"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:cardCornerRadius="@dimen/card_view_corner_radius"
+                    app:cardElevation="@dimen/card_view_elevation"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/padding_large">
+
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:id="@+id/item_profile_img"
+                            android:layout_width="@dimen/imageview_square"
+                            android:layout_height="@dimen/imageview_square"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/ic_placeholder"
+                            android:transitionName="@string/transition_image"
+                            app:avatar="@{model.avatar}"
+                            app:civ_border_width="0dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_small_medium"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:layout_marginRight="@dimen/margin_small_medium"
+                            android:ellipsize="end"
+                            android:maxLines="1"
+                            android:paddingEnd="@dimen/margin_small_medium"
+                            android:text="@{model.name}"
+                            android:textColor="@color/item_color_title"
+                            android:textSize="@dimen/font_medium"
+                            android:textStyle="bold"
+                            android:transitionName="@string/transition_title"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_profile_img" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_description"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center"
+                            android:paddingStart="@dimen/margin_small"
+                            android:paddingEnd="@dimen/margin_large"
+                            android:text="@{model.description}"
+                            android:textColor="@color/colorItem"
+                            android:textSize="@dimen/font_medium"
+                            app:fontFamily="@font/robotoregular"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_title"
+                            tools:text="This is Java Library" />
+
+
+                        <ImageView
+                            android:id="@+id/item_img_language"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:paddingStart="@dimen/margin_small"
+                            android:src="@drawable/ic_circle"
+                            android:visibility="@{model.language == null? View.GONE:View.VISIBLE}"
+                            app:layout_constraintBottom_toBottomOf="@+id/item_language"
+                            app:layout_constraintRight_toLeftOf="@+id/item_language"
+                            app:layout_constraintTop_toBottomOf="@+id/item_description" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_language"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:layout_marginBottom="@dimen/margin_small"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/margin_small"
+                            android:paddingEnd="@dimen/margin_large"
+                            android:text="@{model.language}"
+                            android:textColor="@color/colorItem"
+                            android:textSize="@dimen/font_medium"
+                            android:visibility="@{model.language == null? View.GONE:View.VISIBLE}"
+                            app:fontFamily="@font/robotoregular"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_description"
+                            tools:text="Java" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_stars"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:fontFamily="@font/robotomedium"
+                            android:gravity="center_vertical"
+                            android:text='@{""+model.stars}'
+                            android:textColor="@color/item_color_stars"
+                            android:textSize="@dimen/font_medium_large"
+                            app:fontFamily="@font/robotomedium"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@+id/line1"
+                            app:layout_constraintTop_toBottomOf="@+id/item_language"
+                            tools:text="20" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_stars_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center_vertical"
+                            android:text="@string/text_stars"
+                            android:textColor="@color/item_color_star_text"
+                            android:textSize="@dimen/font_small"
+                            app:fontFamily="@font/robotoregular"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toLeftOf="parent"
+                            app:layout_constraintRight_toLeftOf="@+id/line1"
+                            app:layout_constraintTop_toBottomOf="@+id/item_stars" />
+
+                        <View
+                            android:id="@+id/line1"
+                            android:layout_width="2dp"
+                            android:layout_height="65dp"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:background="@color/item_color_line"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toRightOf="@+id/item_stars"
+                            app:layout_constraintRight_toLeftOf="@+id/item_watchers_title"
+                            app:layout_constraintTop_toBottomOf="@+id/item_language" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_watchers"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:fontFamily="@font/robotomedium"
+                            android:gravity="center_vertical"
+                            android:text='@{""+model.currentPeriodStars}'
+                            android:textColor="@color/item_color_currentstar"
+                            android:textSize="@dimen/font_medium_large"
+                            app:fontFamily="@font/robotomedium"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_language"
+                            tools:text="20" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_watchers_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center_vertical"
+                            android:text="@string/text_currentperiod_stars"
+                            android:textColor="@color/item_color_star_text"
+                            android:textSize="@dimen/font_small"
+                            app:fontFamily="@font/robotoregular"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_watchers" />
+
+
+                        <View
+                            android:id="@+id/line2"
+                            android:layout_width="2dp"
+                            android:layout_height="65dp"
+                            android:layout_marginTop="@dimen/margin_small"
+                            android:background="@color/item_color_line"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toRightOf="@+id/item_watchers_title"
+                            app:layout_constraintRight_toLeftOf="@+id/item_forks"
+                            app:layout_constraintTop_toBottomOf="@+id/item_language" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_forks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:fontFamily="@font/robotomedium"
+                            android:gravity="center_vertical"
+                            android:text='@{""+model.forks}'
+                            android:textColor="@color/item_color_forks"
+                            android:textSize="@dimen/font_medium_large"
+                            app:fontFamily="@font/robotomedium"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toRightOf="@+id/line2"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_language"
+                            tools:text="20" />
+
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/item_forks_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/robotoregular"
+                            android:gravity="center_vertical"
+                            android:text="@string/text_forks"
+                            android:textColor="@color/item_color_star_text"
+                            android:textSize="@dimen/font_small"
+                            app:fontFamily="@font/robotoregular"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintLeft_toRightOf="@+id/line2"
+                            app:layout_constraintRight_toRightOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/item_forks" />
+
+
+                        <View
+                            android:id="@+id/line3"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:background="@color/item_color_line"
+                            android:visibility="invisible"
+                            app:barrierAllowsGoneWidgets="true"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintTop_toBottomOf="@+id/item_forks_title" />
+
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_visit"
+                            style="@style/AppCompatButtonStyle"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/margin_large"
+                            android:layout_marginBottom="@dimen/margin_large"
+                            android:elevation="@dimen/card_view_elevation"
+                            android:onClick="@{()->activity.visitSite(activity, model.url)}"
+                            android:text="@string/btn_visit"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintHorizontal_chainStyle="spread"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/line3" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</layout>
